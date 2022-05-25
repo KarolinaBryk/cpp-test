@@ -5,7 +5,7 @@ int main()
  double ulamek;
     int n;
     int t[10]={0};
-    int u[100]={0}; //na ulamek binarny
+    int u[134]={0}; //na ulamek binarny
     int i=9;
 cout<<"Podaj liczbe";
 cin>>liczba10; //wczytanie liczby z ulamkiem
@@ -16,7 +16,7 @@ while(n>0){ //petla do czesci calkowitej
     t[i]=n%2;
     n=n/2;
     i--;}
-for(int i=0; i<100; i++){ //petla dla czesci ulamkowej
+for(int i=0; i<134]; i+){ //petla dla czesci ulamkowej
     ulamek=2*ulamek;
 if(ulamek>=1) {u[i]=1; ulamek=ulamek-1;}
     else u[i]=0;
