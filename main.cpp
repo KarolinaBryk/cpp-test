@@ -4,7 +4,7 @@ int main()
 { double liczba10; // liczba z u³amkiem dziesiêtnym
  double ulamek;
     int n;
-    int t[10]={0};
+    int t[9999]={0};
     int u[134]={0}; //na ulamek binarny
     int i=9;
 cout<<"Podaj liczbe";
